@@ -1,0 +1,357 @@
+* {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 18px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+* button {
+  outline: none;
+}
+* input {
+  outline: none;
+}
+* li {
+  list-style: none !important;
+}
+* a {
+  text-decoration: none !important;
+  color: #313448;
+}
+* img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  color: black;
+  background-color: #E6E7EE;
+}
+
+/* ///// */
+.font07em {
+  font-size: 0.7em;
+}
+
+.bg-premium {
+  background-color: #E6E7EE;
+}
+
+.color-text-dark {
+  color: #313448;
+}
+
+.color-text-light {
+  color: #44476A;
+}
+
+.shadow-inset {
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff !important;
+}
+
+.shadow-soft {
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+}
+
+.shadow-light {
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+}
+
+.t-align-c {
+  text-align: center;
+}
+
+/* //////flex */
+.display-f {
+  display: flex;
+}
+
+.f-direction-c {
+  flex-direction: column;
+}
+
+.f-direction-r {
+  flex-direction: row;
+}
+
+.j-content-c {
+  justify-content: center;
+}
+
+.j-content-s-b {
+  justify-content: space-between;
+}
+
+.a-items-c {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* /////position///// */
+.position-r {
+  position: relative;
+}
+
+.position-a {
+  position: absolute;
+}
+
+/* border */
+.border-r-5 {
+  border-radius: 5px;
+}
+
+.border-light {
+  border: solid 1px #d1d9e6;
+}
+
+/* ///height */
+.h-100vh {
+  height: 100vh;
+}
+
+/* width */
+.width-40 {
+  width: 40%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+/* padding */
+.padding-20px {
+  padding: 20px;
+}
+
+.padding-30px {
+  padding: 30px;
+}
+
+.padding-35px {
+  padding: 35px;
+}
+
+.padding-50px {
+  padding: 50px;
+}
+
+.padding-30px {
+  padding: 30px;
+}
+
+/* margin */
+.margin-t50px {
+  margin-top: 50px;
+}
+
+.margin-b20px {
+  margin-bottom: 20px;
+}
+
+.margin-30px {
+  margin: 30px;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.button-primary {
+  border: solid 1px #d1d9e6;
+  color: #44476A;
+  font-size: 0.7em;
+  padding: 5px;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  border-radius: 5px;
+  background-color: #E6E7EE;
+}
+
+.button-primary:hover {
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+}
+
+.login-register .card label {
+  font-size: 0.7em;
+  color: #44476A;
+}
+.login-register .card .card-title h1 {
+  font-weight: 200px;
+  font-size: 1.2em;
+  color: #313448;
+  margin-bottom: 5px;
+}
+.login-register .card .card-title p {
+  font-size: 0.7em;
+  color: #44476A;
+}
+.login-register .card .card-body form .input-group {
+  margin: 10px 0;
+}
+.login-register .card .card-body form .input-group .input-body {
+  display: flex;
+  margin-top: 3px;
+}
+.login-register .card .card-body form .input-group .input-body .input-icon {
+  padding: 7px;
+  border: solid 1px #d1d9e6;
+  border-radius: 5px 0 0px 5px;
+}
+.login-register .card .card-body form .input-group .input-body .input-icon i {
+  color: #313448;
+  font-size: 0.7em;
+}
+.login-register .card .card-body form .input-group .input-body input {
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #E6E7EE;
+  padding: 5px 10px;
+}
+.login-register .card .card-body form .input-group .input-body input::placeholder {
+  font-size: 0.7em;
+}
+.login-register .card .card-body form .check-form {
+  margin: 10px 0;
+}
+.login-register .card .card-body form .check-form input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.login-register .card .card-body form .check-form .checkbox {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f3f;
+}
+.login-register .card .card-body form .forget-password a {
+  font-size: 0.7em;
+  color: #44476A;
+}
+.login-register .card .card-body form button:hover {
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+}
+.login-register .card .card-body p {
+  margin: 10px 0;
+  font-size: 0.7em;
+  color: #44476A;
+}
+.login-register .card .card-body p a {
+  font-size: 0.9em;
+}
+.login-register .card .card-body .media {
+  margin: 5px 0;
+}
+.login-register .card .card-body .media li {
+  margin: 0px 5px;
+  border-radius: 50%;
+  font-size: 0.6em;
+  padding: 7px 10px;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  background-color: #E6E7EE;
+}
+.login-register .card .card-body .media li:hover {
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+}
+
+@media (max-width: 767.98px) {
+  .login-register {
+    padding: 20px;
+  }
+  .login-register .login-register-content {
+    padding: 0px 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-register .login-register-content .card {
+    width: 90% !important;
+    margin: 30px 0;
+  }
+}
+.pricing {
+  width: 100%;
+  text-align: center;
+}
+.pricing .pricing-body {
+  display: flex;
+  justify-content: center;
+  padding: 10px 60px;
+}
+.pricing .pricing-body .card-section {
+  width: 20%;
+  margin: 15px;
+  padding: 15px 22px;
+}
+.pricing .pricing-body .card-section .card-heading {
+  margin-bottom: 15px;
+  padding: 32px 7px;
+}
+.pricing .pricing-body .card-section .card-heading .doller {
+  margin: -20px 5px 0 0;
+}
+.pricing .pricing-body .card-section .card-heading .price {
+  font-size: 3.3em;
+  font-weight: 500;
+}
+.pricing .pricing-body .card-section .card-heading .month {
+  margin: 7px 0 0 7px;
+}
+.pricing .pricing-body .card-section .card-body {
+  padding: 12px;
+}
+.pricing .pricing-body .card-section .card-body .card-info {
+  font-weight: 100;
+  margin-bottom: 7px;
+}
+.pricing .pricing-body .card-section .card-body .card-content {
+  border: solid 1px #d1d9e6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.pricing .pricing-body .card-section .card-body .card-content li {
+  padding: 12px 7px;
+  border-bottom: solid 1px #d1d9e6;
+  font-size: 0.7em;
+  color: #44476A;
+}
+.pricing .pricing-body .card-section .card-body .card-content li span {
+  color: #44476A;
+  font-size: 1em;
+  font-weight: bold !important;
+}
+.pricing .pricing-body .card-section .card-body .add-to-card {
+  width: 100% !important;
+}
+.pricing .pricing-body .card-section .card-body .add-to-card i {
+  margin-right: 5px;
+  font-size: 1.3em;
+}
+
+@media (max-width: 767.98px) {
+  .pricing {
+    padding: 20px 0;
+  }
+  .pricing .pricing-body {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing .pricing-body .card-section {
+    width: 100%;
+  }
+}

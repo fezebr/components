@@ -1,0 +1,91 @@
+.pricing {
+     width: 100%;
+     text-align: center;
+
+     .pricing-body {
+          display: flex;
+          justify-content: center;
+          padding: 10px 60px;
+
+          .card-section {
+               width: 20%;
+               margin: 15px;
+               padding: 15px 22px;
+
+               .card-heading {
+                    margin-bottom: 15px;
+                    padding: 32px 7px;
+
+                    .doller {
+
+                         margin: -20px 5px 0 0;
+                    }
+
+                    .price {
+                         font-size: 3.3em;
+                         font-weight: 500;
+                    }
+
+                    .month {
+                         margin: 7px 0 0 7px;
+                    }
+               }
+
+               .card-body {
+                    padding: 12px;
+
+                    .card-info {
+                         font-weight: 100;
+                         margin-bottom: 7px;
+                    }
+
+                    .card-content {
+                         border: solid 1px #d1d9e6;
+                         border-radius: 5px;
+                         margin-bottom: 10px;
+
+                         li {
+                              padding: 12px 7px;
+                              border-bottom: solid 1px #d1d9e6;
+                              font-size: 0.7em;
+                              color: #44476A;
+
+                              span {
+                                   color: #44476A;
+                                   font-size: 1em;
+                                   font-weight: bold !important;
+                              }
+                         }
+                    }
+
+                    .add-to-card {
+                         width: 100% !important;
+
+                         i {
+                              margin-right: 5px;
+                              font-size: 1.3em;
+                         }
+                    }
+               }
+          }
+     }
+
+}
+
+
+$medium:767.98px;
+
+@media(max-width:$medium) {
+     .pricing {
+          padding: 20px 0;
+
+          .pricing-body {
+               padding: 10px 20px;
+               flex-direction: column;
+               align-items: center;
+               .card-section {
+                    width: 100%;
+               }
+          }
+     }
+}
